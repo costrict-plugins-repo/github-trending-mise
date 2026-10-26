@@ -1,0 +1,32 @@
+{
+  "name": "brentmitchell25",
+  "owner": {
+    "name": "Brent Mitchell"
+  },
+  "metadata": {
+    "description": "Comprehensive mise skill for Claude Code covering the full mise ecosystem: tasks, dev tools, environments, hooks, daemons, diagnostics, machine bootstrap, and configuration.",
+    "repository": "https://github.com/brentmitchell25/mise-plugin",
+    "license": "MIT"
+  },
+  "plugins": [
+    {
+      "name": "mise",
+      "description": "Use when working with mise - creating/editing mise.toml or .mise.toml files, defining tasks with usage field arguments, task skip_if and task-scoped fnox secrets, managing dev tools and environments, automatic tool updates, per-machine vars prompts, configuring hooks, task caching, OpenTelemetry task tracing, sandboxing, project daemons, project diagnostics, command wrappers, shared config includes and the global override file, the mise lsp language server, machine bootstrap, dotfiles and dotfile groups, dotfiles history, agent skills, monorepo workspaces, or when user mentions mise configuration.",
+      "source": "./",
+      "category": "development",
+      "keywords": [
+        "mise",
+        "tasks",
+        "task-runner",
+        "devtools",
+        "toml",
+        "build-system",
+        "developer-environment",
+        "daemons",
+        "bootstrap",
+        "dotfiles"
+      ],
+      "version": "2.12.0"
+    }
+  ]
+}
